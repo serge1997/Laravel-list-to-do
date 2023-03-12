@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-md-12" id="get-started">
                     <a href="#" class="btn" id="get-started-link">
-                        get started
+                        Começa agora
                     </a>
                 </div>
             </div>
