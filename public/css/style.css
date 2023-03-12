@@ -1,0 +1,145 @@
+
+:root{
+
+    --btn-bg-color: #a62ff0;
+    --btn-font-color: #fff;
+    --green-bg-color: #03A64A;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+
+body{
+    min-height: 100vh;
+}
+
+.navbar {
+    padding: 18px;
+    border-bottom: #777;
+}
+
+.navbar .navbar-nav{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.navbar-nav a:hover{
+    color: var(--btn-bg-color);
+}
+
+#navbar img{
+    width: 80px;
+}
+
+.offset-md-1{
+    padding: 10px;
+    margin: 1.3rem auto;
+
+}
+.offset-md-1 .row img{
+    max-width: 530px;
+    border-radius: 6px;
+    filter: drop-shadow(1px 2px 6px rgba(0, 0, 0, 0.6));
+}
+
+.offset-md-1 #info-container h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    justify-content: center;
+}
+
+.offset-md-1 #info-container h1 span{
+    text-transform: capitalize;
+    font-weight: 700;
+    text-align: center;
+}
+#get-started{
+    display: flex;
+    justify-content: center;
+}
+#get-started-link{
+    text-transform: uppercase;
+    background: var(--btn-bg-color);
+    color: var(--btn-font-color);
+}
+/* /dashboard */
+
+#name-container{
+    padding: 8px;
+    display: flex;
+    justify-content: flex-end;
+}
+#name-container h6{
+    width: 130px;
+    background: var(--green-bg-color);
+    color: var(--btn-font-color);
+    padding: 8px;
+    border-radius: 12px;
+}
+
+/* create formulario/ page */
+
+#create-form-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 16px auto;
+}
+
+#create-form-container form label{
+    font-weight: bold;
+}
+
+#create-form-container form .form-control{
+    border: none;
+    border-bottom: var(--btn-bg-color) solid 1px;
+}
+
+#create-form-container form input[type=submit]{
+    background: var(--btn-bg-color);
+    color: var(--btn-font-color);
+    width: 130px;
+    margin: 8px auto;
+}
+
+/* show */
+
+#show-container{
+    padding: 16px;
+    margin: 16px auto;
+}
+#show-container .row{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+#show-container .row #data-box{
+    background: var(--btn-font-color);
+    color: #212121;
+}
+
+#show-container .row .bg-primary ul{
+    text-align: left;
+}
+#show-container .box{
+    background: var(--btn-bg-color);
+    color: var(--btn-font-color);
+    padding: 28px;
+    text-align: center;
+    border-radius: 26px;
+    height: 210px;
+    filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.7));
+}
+
+
+footer{
+    margin: 1.3rem auto;
+    padding: 18px;
+    text-align: center;
+}
